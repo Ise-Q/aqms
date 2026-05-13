@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "blpapi>=3.26.3.1",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.9",
@@ -14,3 +15,6 @@ dependencies = [
     "scipy>=1.17.1",
     "statsmodels>=0.14.6",
 ]
+
+[[tool.uv.index]]
+url = "https://blpapi.bloomberg.com/repository/releases/python/simple/"

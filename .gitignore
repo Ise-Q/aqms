@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 *:Zone.Identifier
 *.gz
+data/
